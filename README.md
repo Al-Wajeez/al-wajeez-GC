@@ -5,7 +5,7 @@
 ![Platform](https://img.shields.io/badge/platform-desktop%20application-informational)
 ![Education](https://img.shields.io/badge/domain-educational%20guidance-orange)
 
-**وحدة التوجيه والتحليل — Student guidance & results-analysis system for guidance centers (مراكز التوجيه)**
+**Student guidance & results-analysis system for guidance centers (مراكز التوجيه)**
 
 Al Wajeez GC is a desktop application that brings the guidance process in Algerian middle schools into the digital age. It imports student results, analyzes them with depth and precision, and helps guidance counselors (**مستشارو التوجيه والإرشاد المدرسي والمهني**) and administrative staff understand the real state of academic achievement — quickly and reliably.
 
