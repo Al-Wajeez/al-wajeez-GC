@@ -1,6 +1,6 @@
 # Al Wajeez GC
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Version](https://img.shields.io/badge/version-1.0.7-blue)
 ![Status](https://img.shields.io/badge/status-active-success)
 ![Platform](https://img.shields.io/badge/platform-desktop%20application-informational)
 ![Education](https://img.shields.io/badge/domain-educational%20guidance-orange)
