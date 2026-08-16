@@ -104,7 +104,7 @@ Al Wajeez GC centralizes that work in one place — a comprehensive digital syst
 
 ## About the developer
 
-**حدادي عبد الرؤوف (Haddadi Abdraouf)** — a socio-educational specialist who designed and developed this program for the Algerian education sector, to digitize and ease the work of guidance counselors and reduce errors in calculating averages and organizing students.
+**Haddadi Abdraouf (حدادي عبد الرؤوف)** — a socio-educational specialist who designed and developed this program for the Algerian education sector, to digitize and ease the work of guidance counselors and reduce errors in calculating averages and organizing students.
 
 - Contact: **haddadi.abdraouf@gmail.com**
 - Location: **البليدة، الجزائر (Blida, Algeria)**
