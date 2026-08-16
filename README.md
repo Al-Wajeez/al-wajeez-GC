@@ -1,61 +1,65 @@
-# Al Wajeez GC — برنامج الوجيز
+# Al Wajeez GC — منظومة الوجيز لمراكز التوجيه
 
 ![Version](https://img.shields.io/badge/version-1.0.7-blue)
 ![Status](https://img.shields.io/badge/status-active-success)
 ![Platform](https://img.shields.io/badge/platform-desktop%20application-informational)
 ![Education](https://img.shields.io/badge/domain-educational%20guidance-orange)
 
-**Student guidance & orientation system for guidance centers (مراكز التوجيه)**
+**وحدة التوجيه والتحليل — Student guidance & results-analysis system for guidance centers (مراكز التوجيه)**
 
-Al Wajeez GC is a desktop application built for the Algerian education system (وزارة التربية الوطنية). It helps guidance counselors manage student results, calculate orientation metrics, and prepare reports — replacing slow, error-prone spreadsheet work with fast, accurate automation.
-
-The system focuses on the **4th year of middle school (رابعة متوسط)** and the **BEM national exam (شهادة التعليم المتوسط)**, the key stage where students are guided toward a secondary-education path.
+Al Wajeez GC is a desktop application that brings the guidance process in Algerian middle schools into the digital age. It imports student results, analyzes them with depth and precision, and helps guidance counselors (**مستشارو التوجيه والإرشاد المدرسي والمهني**) and administrative staff understand the real state of academic achievement — quickly and reliably.
 
 ---
 
 ## What it does
 
-Educational orientation requires processing large amounts of student data: term grades, national exam results, and transition scores. Doing this by hand in Excel is time-consuming and full of mistakes.
+Guidance work requires processing large volumes of student data: term grades, national exam results, and follow-up information. Doing this by hand in spreadsheets is slow and error-prone.
 
-Al Wajeez GC centralizes that work in one place:
+Al Wajeez GC centralizes that work in one place — a comprehensive digital system for guidance and analysis (الرؤية العميقة والتحليل الدقيق للمعطيات الإحصائية والبيداغوجية):
 
 - Import student results directly from Excel files.
 - The app automatically reads, cleans, and organizes the data.
-- Orientation scores and rankings are calculated automatically.
-- Reports and analyses are ready in minutes — not hours.
+- Results are analyzed with modern statistical tools.
+- Reports and documents are ready in minutes — not hours.
 
 ---
 
 ## Key features
 
-### Import student data from Excel
+### Excel results import
 - Import results for **الفصل الأول (Term 1)**, **الفصل الثاني (Term 2)**, **الفصل الثالث (Term 3)**, and **شهادة التعليم المتوسط (BEM)**.
 - Recognizes Arabic sheet headers automatically.
-- Fixes formats (dates, grades) and flags missing or invalid records and duplicate entries.
-
-### Automatic orientation calculations
-- Computes annual averages, BEM results, and transition scores.
-- Calculates **science and arts scores (مجموعة العلوم / مجموعة الآداب)** with configurable weights.
-- Ranks students within each stream automatically.
+- Fixes formats (dates and grades) and flags missing, invalid, or duplicate records.
 
 ### Student records & search
-- Manage all students in one structured dataset, with all 14 subjects per student.
+- Manage all students in one structured dataset, covering all **14 school subjects** per student.
 - Search, filter, sort, and group students by class, gender, repeater status, and more.
-- Merge duplicate records and keep complete student profiles (interview notes included).
+- Merge duplicate records and keep complete student profiles with interview notes.
 
-### Analysis & class councils
-- Class council mode (**مجلس الأقسام**) with clear success/failure indicators.
-- Subject-level analysis: strengths and weaknesses per subject.
-- Compare results by gender and by repeater (**معيد**) vs. transfer (**منتقل**).
-- Early-warning flags for students in difficulty.
+### Deep statistical analysis
+- Grade distributions with clear appreciation bands (التقديرات).
+- Comparisons by **gender** and by **repeater (معيد)** vs. transfer (منتقل).
+- Dispersion and harmony analysis (standard deviation, coefficient of variation) to spot homogeneous vs. unstable classes.
+- Bell-curve (of grades), predictive analysis, and early-warning indicators for students in difficulty.
+- Per-subject analyzer (**تحليل النتائج حسب المواد**) and comprehensive report views.
+- Dedicated BEM analysis module with insights and diagnostic tools.
+
+### Class councils (مجلس الأقسام)
+- Semester and annual council dashboards with clear success/failure indicators.
+- Ready, structured data for class-council discussions (تحليل فصلي/سنوي).
+
+### Monitoring & follow-up
+- Student monitoring lists (متابعة التلاميذ), follow-up of low-performing students, and decline assessment (المعيدين والمنتقلين بالاستدراك).
+
+### Annual Estimated Program (البرنامج السنوي التقديري)
+- Plan the guidance counselor's yearly activity program across the **5 official themes** (الإعلام المدرسي، المتابعة والتكفل النفسي، التقويم البيداغوجي، التوجيه المدرسي، الدراسات).
+- Structure activities month by month and week by week (calendar, Gantt, Kanban and timeline views).
+- Follow execution statuses and produce the end-of-year bilan — exporting to **Word** and **Excel**.
+- Ready templates for both **middle school (المتوسط)** and **high school (الثانوي)**.
 
 ### Reports & exports
-- Generate official Arabic reports in **Word** and **Excel** (with the Ministry header).
-- Orientation guidance tables (**جدول التوجيه**) and appointment schedules ready for printing.
-
-### Annual program planner (البرنامج السنوي)
-- Plan the center's annual program by theme and weekly sessions.
-- Visual views: calendar, Gantt, and Kanban; end-of-year bilan (تقرير شامل).
+- Generate official Arabic documents in **Word** and **Excel** (with the Ministry header).
+- Print-ready guidance tables and appointment schedules.
 
 ### Email & communication
 - Send letters and emails to parents and institutions with professional ready-made templates.
@@ -63,10 +67,10 @@ Al Wajeez GC centralizes that work in one place:
 
 ### Users & roles
 - Accounts with roles: **administrator, counselor, teacher, director, viewer**.
-- Each role sees only what it needs; secure login with password recovery.
+- Secure login and password recovery; each role sees only what it needs.
 
 ### Licensing & updates
-- Works under a **license file (.lic)** — one license per registered number of devices.
+- Works under a licensed device activation (**.lic**).
 - The app updates itself automatically to new versions.
 
 ---
@@ -74,20 +78,20 @@ Al Wajeez GC centralizes that work in one place:
 ## How to install
 
 1. **Download** the latest installer from GitHub Releases:
-   [Al Wajeez/al-wajeez-GC — Releases](https://github.com/Al-Wajeez/al-wajeez-GC/releases)
+   [Al-Wajeez/al-wajeez-GC — Releases](https://github.com/Al-Wajeez/al-wajeez-GC/releases)
 2. **Run** the installer (`Al-Wajeez-GC-Setup-<version>.exe`) and follow the setup wizard.
-3. **Activate the license**: on first launch, choose your **.lic** license file or contact the administrator to activate the device.
+3. **Activate the device**: on first launch, choose your license file or contact the administrator.
 
-> The app needs a valid license and a working internet connection to receive updates.
+> The app needs a valid license and an internet connection to receive updates.
 
 ---
 
-## Who is it for?
+## Who it is for?
 
 - Guidance centers (**مراكز التوجيه**)
-- School guidance counselors (**مستشارو التوجيه**)
+- School & vocational guidance counselors (**مستشارو التوجيه والإرشاد المدرسي والمهني**)
 - Educational administrators and principals
-- Middle-school institutions
+- Middle-school institutions (**مرحلة التعليم المتوسط**)
 - Academic orientation committees
 
 ---
@@ -100,15 +104,16 @@ Al Wajeez GC centralizes that work in one place:
 
 ## About the developer
 
-**Haddadi Abdraouf** — developer of the **Al Wajeez** educational software suite, building digital tools for educational guidance, academic analytics, and school data systems.
+**حدادي عبد الرؤوف (Haddadi Abdraouf)** — a socio-educational specialist who designed and developed this program for the Algerian education sector, to digitize and ease the work of guidance counselors and reduce errors in calculating averages and organizing students.
 
-For licensing inquiries or support, contact the author.
+- Contact: **haddadi.abdraouf@gmail.com**
+- Location: **البليدة، الجزائر (Blida, Algeria)**
 
 ---
 
 ## License
 
-This software is **proprietary** and distributed under license keys.
+This software is **proprietary** and distributed under licensed device activation.
 Unauthorized copying, distribution, or modification is prohibited.
 
-Released under the **Al Wajeez Platform** — all rights reserved © 2026.
+Released under the **Al Wajeez Platform** — جميع الحقوق محفوظة © 2026.
