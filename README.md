@@ -1,145 +1,114 @@
-# Al Wajeez GC
+# Al Wajeez GC — برنامج الوجيز
 
 ![Version](https://img.shields.io/badge/version-1.0.7-blue)
 ![Status](https://img.shields.io/badge/status-active-success)
 ![Platform](https://img.shields.io/badge/platform-desktop%20application-informational)
 ![Education](https://img.shields.io/badge/domain-educational%20guidance-orange)
 
-**Al Wajeez GC** is a professional digital guidance system designed for **educational counselors and guidance centers**.  
-The platform streamlines the analysis of academic results for **middle school students** and assists in the **orientation process** through automated calculations, structured data management, and powerful reporting tools.
+**Student guidance & orientation system for guidance centers (مراكز التوجيه)**
 
-The system aims to reduce manual processing, improve accuracy, and provide **data-driven insights for student orientation decisions**.
+Al Wajeez GC is a desktop application built for the Algerian education system (وزارة التربية الوطنية). It helps guidance counselors manage student results, calculate orientation metrics, and prepare reports — replacing slow, error-prone spreadsheet work with fast, accurate automation.
 
----
-
-# Overview
-
-Educational orientation often requires the processing of large volumes of student data, including annual grades, national exam results, and transition metrics.  
-Traditionally, these calculations are performed manually using spreadsheets, which can be time-consuming and error-prone.
-
-**Al Wajeez GC** solves this problem by providing a centralized platform that:
-
-- Imports academic data directly from Excel files
-- Validates and structures student records
-- Automatically calculates orientation metrics
-- Generates organized datasets for analysis and reporting
-
-The platform is optimized for **speed, reliability, and scalability**, allowing educators to handle large datasets efficiently.
+The system focuses on the **4th year of middle school (رابعة متوسط)** and the **BEM national exam (شهادة التعليم المتوسط)**, the key stage where students are guided toward a secondary-education path.
 
 ---
 
-# Key Features
+## What it does
 
-## Excel Data Import
-- Import student datasets directly from Excel files
-- Supports structured academic result sheets
-- Automatic column interpretation and parsing
+Educational orientation requires processing large amounts of student data: term grades, national exam results, and transition scores. Doing this by hand in Excel is time-consuming and full of mistakes.
 
-## Smart Data Processing
-- Cleans and validates imported student data
-- Detects missing or invalid records
-- Normalizes formats such as grades and dates
+Al Wajeez GC centralizes that work in one place:
 
-## Automated Orientation Calculations
-- Calculates orientation metrics required for the guidance process
-- Processes:
-  - Annual averages
-  - BEM exam results
-  - Transition scores
-- Ensures accurate and standardized calculations
-
-## Student Data Management
-- Organizes all students in a structured dataset
-- Handles large classes efficiently
-- Maintains consistent academic profiles
-
-## Analytical Reporting
-- Enables performance analysis
-- Supports educational committees and guidance councils
-- Facilitates preparation of orientation reports
+- Import student results directly from Excel files.
+- The app automatically reads, cleans, and organizes the data.
+- Orientation scores and rankings are calculated automatically.
+- Reports and analyses are ready in minutes — not hours.
 
 ---
 
-# System Workflow
+## Key features
 
-1. **Import Excel file** containing student results
-2. **Automatic validation and normalization** of the dataset
-3. **Data consolidation** into structured student profiles
-4. **Orientation metric calculations**
-5. **Analysis and reporting**
+### Import student data from Excel
+- Import results for **الفصل الأول (Term 1)**, **الفصل الثاني (Term 2)**, **الفصل الثالث (Term 3)**, and **شهادة التعليم المتوسط (BEM)**.
+- Recognizes Arabic sheet headers automatically.
+- Fixes formats (dates, grades) and flags missing or invalid records and duplicate entries.
 
----
+### Automatic orientation calculations
+- Computes annual averages, BEM results, and transition scores.
+- Calculates **science and arts scores (مجموعة العلوم / مجموعة الآداب)** with configurable weights.
+- Ranks students within each stream automatically.
 
-# Technology Stack
+### Student records & search
+- Manage all students in one structured dataset, with all 14 subjects per student.
+- Search, filter, sort, and group students by class, gender, repeater status, and more.
+- Merge duplicate records and keep complete student profiles (interview notes included).
 
-The application is built using modern technologies to ensure performance and maintainability.
+### Analysis & class councils
+- Class council mode (**مجلس الأقسام**) with clear success/failure indicators.
+- Subject-level analysis: strengths and weaknesses per subject.
+- Compare results by gender and by repeater (**معيد**) vs. transfer (**منتقل**).
+- Early-warning flags for students in difficulty.
 
-**Frontend**
-- React
-- TypeScript
-- Vite
+### Reports & exports
+- Generate official Arabic reports in **Word** and **Excel** (with the Ministry header).
+- Orientation guidance tables (**جدول التوجيه**) and appointment schedules ready for printing.
 
-**Data Processing**
-- Excel parsing libraries
-- Structured data validation
-- Custom calculation engines
+### Annual program planner (البرنامج السنوي)
+- Plan the center's annual program by theme and weekly sessions.
+- Visual views: calendar, Gantt, and Kanban; end-of-year bilan (تقرير شامل).
 
-**Reporting**
-- Data visualization and structured tables
+### Email & communication
+- Send letters and emails to parents and institutions with professional ready-made templates.
+- Attach files from a dedicated folder and personalize each message per recipient.
 
----
+### Users & roles
+- Accounts with roles: **administrator, counselor, teacher, director, viewer**.
+- Each role sees only what it needs; secure login with password recovery.
 
-# Screenshots
-
----
-
-# Target Users
-
-Al Wajeez GC is designed for:
-
-- **Guidance Center**
-- **School Guidance Counselors**
-- **Educational Administrators**
-- **Middle and Hight School Institutions**
-- **Academic Orientation Committees**
-
----
-
-# Roadmap
-
-Planned improvements for future versions:
-
-- Automated report generation (PDF)
-- Advanced analytics dashboards
-- Multi-school dataset management
-- Secure licensing system
-- Cloud synchronization
+### Licensing & updates
+- Works under a **license file (.lic)** — one license per registered number of devices.
+- The app updates itself automatically to new versions.
 
 ---
 
-# Author
+## How to install
 
-**Haddadi Abdraouf**
+1. **Download** the latest installer from GitHub Releases:
+   [Al Wajeez/al-wajeez-GC — Releases](https://github.com/Al-Wajeez/al-wajeez-GC/releases)
+2. **Run** the installer (`Al-Wajeez-GC-Setup-<version>.exe`) and follow the setup wizard.
+3. **Activate the license**: on first launch, choose your **.lic** license file or contact the administrator to activate the device.
 
-Developer of the **Al Wajeez** educational software ecosystem, focused on building advanced digital tools for **educational guidance, academic analytics, and school data systems**.
-
----
-
-# Project Ecosystem
-
-This project is part of the **Al Wajeez Platform**, a suite of tools designed to support educational institutions with modern digital solutions.
+> The app needs a valid license and a working internet connection to receive updates.
 
 ---
 
-# License
+## Who is it for?
 
-This software is **proprietary**.  
+- Guidance centers (**مراكز التوجيه**)
+- School guidance counselors (**مستشارو التوجيه**)
+- Educational administrators and principals
+- Middle-school institutions
+- Academic orientation committees
+
+---
+
+## Screenshots
+
+*(Coming soon)*
+
+---
+
+## About the developer
+
+**Haddadi Abdraouf** — developer of the **Al Wajeez** educational software suite, building digital tools for educational guidance, academic analytics, and school data systems.
+
+For licensing inquiries or support, contact the author.
+
+---
+
+## License
+
+This software is **proprietary** and distributed under license keys.
 Unauthorized copying, distribution, or modification is prohibited.
 
-For licensing inquiries, contact the author.
-
----
-
-# Acknowledgment
-
-This project was developed to support educators and counselors in improving the **student guidance and orientation process**, making it more efficient, accurate, and data-driven.
+Released under the **Al Wajeez Platform** — all rights reserved © 2026.
